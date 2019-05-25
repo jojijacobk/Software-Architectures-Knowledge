@@ -81,8 +81,8 @@ These components adhere to some *Interface Description Language (IDL)* which e
 [ https://www.theregister.co.uk/2016/01/06/inside_microservices/]
 
 -   Microservice is a refined form of Component. 
--   Microservices are supposed to run standalone also and it should work just fine. But, components are generally supposed to work within the larger application.   
-    Eg: Spell checker feature in Microsoft Word is not a stand alone utility, and it is hence a Component. Had it been a Microservice, it should have been run as a stand alone service and any other process could invoke it to get result.
+-   Microservices are supposed to run standalone also and it should work just fine. But, components are generally supposed to work within the larger application.   
+    **Eg:** Spell checker feature in Microsoft Word is not a stand alone utility, and it is hence a Component. Had it been a Microservice, it should have been run as a stand alone service and any other process could invoke it to get result.
 -   Components are not supposed to be written in any different context than their parent bigger application context - such as another programming language or different OS or different databases that has no relation to the larger application.   
     For example, you don't think that Spell checker feature in Microsoft can be written in a different programming language or run on a different OS different than Microsoft word is built with.
 -   You may categorize a few Microservices into components such as Database component,  App server logic component,  Presentation/UI component
