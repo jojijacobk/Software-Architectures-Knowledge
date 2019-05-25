@@ -57,6 +57,8 @@ These components adhere to some *Interface Description Language (IDL)* which e
 
 ### Microservice vs Monolithic
 
+<img src="attachments/918765785/1213311434.png" width="450"> <br/>
+
 **Micorservice Architecture**
 
 -   It is the approach of designing a single application as suite of small services, where
