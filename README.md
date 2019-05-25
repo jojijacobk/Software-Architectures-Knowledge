@@ -19,15 +19,15 @@ Example of technologies based on components based architecture :
 3.  Java EE from Sun
 4.  Web components (shadow DOM, html imports etc)
 
-These components adhere to some [Interface Description Language](#SoftwareArchitectures-Interface-Description-Language) (IDL) which ensures that the components publicly exhibit an interface to enable interoperability between components.
+These components adhere to some *Interface Description Language (IDL)* which ensures that the components publicly exhibit an interface to enable interoperability between components.
 
 <u>Related terms :</u>
 
 -   Interface-based programming (**aka** Interface-based architecture) [ https://en.wikipedia.org/wiki/Interface-based_programming] : For example, Eclipse Foundation publishes their interface and most of the Eclipse plugins are developed by third party vendors satisfying the interface contract.
 -   Modular programming [ https://en.wikipedia.org/wiki/Modular_programming]
--   [Design by contract](#SoftwareArchitectures-Design-by-Contract) : for example, phone manufacturers could publish a specification on the charger needed. Hence, any vendors (including the manufacturers) could produce chargers and it works!.
--   [Defensive design](#SoftwareArchitectures-Defensive-Design) : for example, socket and plug should be designed defensively so that it is physically impossible to insert a plugin incorrectly in the socket.
--   [Microservice architecture](#SoftwareArchitectures-Mircoservice-Arc)
+-   Design by contract : for example, phone manufacturers could publish a specification on the charger needed. Hence, any vendors (including the manufacturers) could produce chargers and it works!.
+-   Defensive design : for example, socket and plug should be designed defensively so that it is physically impossible to insert a plugin incorrectly in the socket.
+-   Microservice architecture
 
 ## Microservice Architecture (MSA)
 
@@ -77,16 +77,16 @@ These components adhere to some [Interface Description Language](#SoftwareArchi
 
 [ https://en.wikipedia.org/wiki/Service-oriented_architecture]
 
--   SOA is a general term for [Microservice Architecture](#SoftwareArchitectures-Microservice-Architecgt). 
+-   SOA is a general term for Microservice Architecture
 -   Most common form of SOA implementation is Webservice SOAP, REST (though other forms such as message passing also do exist)
--   **Evolution goes like this :** Distributed Computing →  SOA →  SaaS → SaaS is group of a lot of Microservices. 
--   Software as a Service is the current trend of SOA, where each service is a microservice.
+-   Evolution goes like this : Distributed Computing →  SOA →  SaaS, where SaaS is group of a lot of Microservices. 
+-   *Software as a Service (SaaS)* is the current trend of SOA, where each service is a microservice.
 
 ## Event Driven Architecture (EDA)
 
 [ https://en.wikipedia.org/wiki/Event-driven_architecture]
 
--   EDA complements [Service Oriented Architecture](#SoftwareArchitectures-Service-Oriented-Architecture). Events may trigger the firing up of services in the SOA.
+-   EDA complements Service Oriented Architecture. Events may trigger the firing up of services in the SOA.
 -   An event can be defined as a significant change in the application state
 -   Events may be sent as just event notification with not much details about event, or my sent the event itself
 
@@ -95,7 +95,7 @@ Event driven system generally consists of :
 -   Event generator : Who monitors application to application and senses a change of state. This change is represented into a technical structure forming the event message.
     -   **Eg:** System monitors
 -   Sink (Event Processing Engine) : Who receives the events and triggers corresponding reaction. 
-    -   **Eg: **If an event comes as "stock of Product\_ID is low", the *Sink* triggers notification to do bulk order of "Product\_ID".
+    -   **Eg:** If an event comes as "stock of Product_ID is low", the *Sink* triggers notification to do bulk order of "Product\_ID".
 -   Channel : Conduit to transfer event notification from generator to the subscribers. 
     -   **Eg**: Email, TCP/IP network transfer, Flat files read/write (XML, JSON etc)
 
@@ -107,7 +107,7 @@ Event message structure : 
 Event processing styles :
 
 -   Simple : events that are directly related to specific measurable condition.
-    -   **Eg: **when petrol tank is near empty, show warning in dashboard
+    -   **Eg:** when petrol tank is near empty, show warning in dashboard
 -   Stream : continuos stream of all events for real time in flow of information and it's processing 
 -   Complex : infer something from a pattern of different events. Figure out a problem by recognizing patterns of different symptoms coming together.
 
