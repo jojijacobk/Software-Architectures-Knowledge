@@ -1,15 +1,16 @@
    * [Software Architectures](README.md#software-architectures)
-      * [Blackboard System](README.md#blackboard-system)
-      * [Client Server Model](README.md#client-server-model)
       * [Component Based](README.md#component-based)
       * [Microservice Architecture (MSA)](README.md#microservice-architecture-msa)
          * [Microservice vs Monolithic](README.md#microservice-vs-monolithic)
          * [Microservice vs Component](README.md#microservice-vs-component)
       * [Service Oriented Architecture (SOA)](README.md#service-oriented-architecture-soa)
       * [Event Driven Architecture (EDA)](README.md#event-driven-architecture-eda)
+      * [Blackboard System](README.md#blackboard-system)
+      * [Client Server Model](README.md#client-server-model)
    * [Notes](README.md#notes)
       * [Interface Description Language](README.md#interface-description-language)
       * [Design by Contract (DbC)](README.md#design-by-contract-dbc)
+      * [Defensive Design](README.md#defensive-design)
 
 
 # Software Architectures
