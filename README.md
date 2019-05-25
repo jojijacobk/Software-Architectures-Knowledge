@@ -1,41 +1,8 @@
-   * [Software Architectures](README.md#software-architectures)
-      * [Blackboard System](README.md#blackboard-system)
-      * [Client Server Model](README.md#client-server-model)
-      * [Component Based](README.md#component-based)
-      * [Microservice Architecture (MSA)](README.md#microservice-architecture-msa)
-         * [Microservice vs Monolithic](README.md#microservice-vs-monolithic)
-         * [Microservice vs Component](README.md#microservice-vs-component)
-      * [Service Oriented Architecture (SOA)](README.md#service-oriented-architecture-soa)
-      * [Event Driven Architecture (EDA)](README.md#event-driven-architecture-eda)
-   * [Notes](README.md#notes)
-      * [Interface Description Language](README.md#interface-description-language)
-      * [Design by Contract (DbC)](README.md#design-by-contract-dbc)
-      * [Defensive Design](README.md#defensive-design)
-
 # Software Architectures
 
 [ https://en.wikipedia.org/wiki/Software_architecture]
 
 The following are most reusable software architectures :
-
-## Blackboard System
-
-[ https://en.wikipedia.org/wiki/Blackboard_(computing)]
-
--   It begins with a large blackboard with problem specification
--   A group of specialists watching the blackboard for an opportunity to apply their expertise to developing solution.
--   While someone writes on the blackboard with their contribution, that paves way to other specialists to apply their expertise.
--   This repeats until the final solution is derived.
-
-In programming (like AI) this model defines 3 main components :
-
--   a blackboard : which is a structured global memory containing objects from solution space
--   knowledge sources : specialized modules with their own interpretation
--   a control component : selects, configures and executes modules/knowledge sources
-
-## Client Server Model
-
-[ [https://en.wikipedia.org/wiki/Client–server\_model](https://en.wikipedia.org/wiki/Client–server_model) ]
 
 ## Component Based
 
@@ -143,6 +110,25 @@ Event processing styles :
     -   **Eg: **when petrol tank is near empty, show warning in dashboard
 -   Stream : continuos stream of all events for real time in flow of information and it's processing 
 -   Complex : infer something from a pattern of different events. Figure out a problem by recognizing patterns of different symptoms coming together.
+
+## Blackboard System
+
+[ https://en.wikipedia.org/wiki/Blackboard_(computing)]
+
+-   It begins with a large blackboard with problem specification
+-   A group of specialists watching the blackboard for an opportunity to apply their expertise to developing solution.
+-   While someone writes on the blackboard with their contribution, that paves way to other specialists to apply their expertise.
+-   This repeats until the final solution is derived.
+
+In programming (like AI) this model defines 3 main components :
+
+-   a blackboard : which is a structured global memory containing objects from solution space
+-   knowledge sources : specialized modules with their own interpretation
+-   a control component : selects, configures and executes modules/knowledge sources
+
+## Client Server Model
+
+[ [https://en.wikipedia.org/wiki/Client–server\_model](https://en.wikipedia.org/wiki/Client–server_model) ]
 
 # Notes
 
